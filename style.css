@@ -4,3 +4,23 @@
     min-height: 100vh;
     margin: 0 auto;
 }
+
+header {
+    background-color: lightslategray;
+    min-height: 10vh;
+}
+
+main {
+    background-color: slategray;
+    min-height: 40vh;
+}
+
+.cards {
+    background-color: lightslategray;
+    min-height: 40vh;
+}
+
+footer {
+    background-color: slategray;
+    min-height: 10vh;
+}
