@@ -18,6 +18,26 @@ main {
 .cards {
     background-color: lightslategray;
     min-height: 40vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1 {
+    background-color: lightgreen;
+    min-height: 40vh;
+    width: 33.33%;
+}
+
+.card2 {
+    background-color: green;
+    min-height: 40vh;
+    width: 33.33%;
+}
+
+.card3 {
+    background-color: darkgreen;
+    min-height: 40vh;
+    width: 33.33%;
 }
 
 footer {
