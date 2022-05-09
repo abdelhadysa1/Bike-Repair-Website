@@ -25,19 +25,19 @@ main {
 .card1 {
     background-color: lightgreen;
     min-height: 40vh;
-    width: 33.33%;
+    flex: 1;
 }
 
 .card2 {
     background-color: green;
     min-height: 40vh;
-    width: 33.33%;
+    flex: 1;
 }
 
 .card3 {
     background-color: darkgreen;
     min-height: 40vh;
-    width: 33.33%;
+    flex: 1;
 }
 
 footer {
