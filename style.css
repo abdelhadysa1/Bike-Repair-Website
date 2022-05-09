@@ -1,0 +1,6 @@
+.container {
+    width: 1000px;
+    background-color: lightslategray;
+    min-height: 100vh;
+    margin: 0 auto;
+}
