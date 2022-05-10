@@ -8,6 +8,20 @@
 header {
     background-color: lightslategray;
     min-height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    flex: 80%;
+}
+
+nav {
+    flex: 20%;
+}
+
+nav li {
+    display: inline;
 }
 
 main {
@@ -19,6 +33,7 @@ main {
     display: flex;
     align-items: center;
     min-height: 40vh;
+    text-align: justify;
 }
 
 .herobox {
