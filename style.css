@@ -25,6 +25,10 @@ main {
     flex: 1;
 }
 
+.herobox-f2 {
+    flex: 2;
+}
+
 .cards {
     background-color: lightslategray;
     min-height: 40vh;
