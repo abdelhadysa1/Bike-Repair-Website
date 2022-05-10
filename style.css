@@ -5,16 +5,17 @@ body {
 
 .container {
     width: 1000px;
-    background-color: lightslategray;
+    /* background-color: lightslategray; */
     min-height: 100vh;
     margin: 0 auto;
 }
 
 header {
-    background-color: lightslategray;
+    /* background-color: lightslategray; */
     min-height: 10vh;
     display: flex;
     align-items: center;
+    padding: 25px 0;
 }
 
 .logo {
@@ -30,7 +31,7 @@ nav li {
 }
 
 main {
-    background-color: slategray;
+    /* background-color: slategray; */
     min-height: 40vh;
 }
 
@@ -47,6 +48,7 @@ main {
 
 .herobox-f2 {
     flex: 2;
+    padding: 25px;
 }
 
 .cards {
