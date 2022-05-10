@@ -1,6 +1,14 @@
+html {
+    min-height: 100vh;
+}
+
 body {
     background: rgb(252,94,85);
     background: linear-gradient(45deg, rgba(252,94,85,1) 25%, rgba(250,64,131,1) 85%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    color: white;
 }
 
 .container {
@@ -79,4 +87,24 @@ main {
 footer {
     background-color: slategray;
     min-height: 10vh;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Tangerine', serif;
+    margin-bottom: 25px;
+}
+
+.herobox-f2 h1 {
+    font-size: 60px;
+    font-weight: bold;
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(200, 200, 200));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p {
+    font-family: 'Roboto Flex', sans-serif;
+    margin-bottom: 25px;
 }
