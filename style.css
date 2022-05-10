@@ -15,6 +15,16 @@ main {
     min-height: 40vh;
 }
 
+.hero {
+    display: flex;
+    align-items: center;
+    min-height: 40vh;
+}
+
+.herobox {
+    flex: 1;
+}
+
 .cards {
     background-color: lightslategray;
     min-height: 40vh;
