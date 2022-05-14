@@ -58,13 +58,13 @@ main {
 }
 
 .herobox img {
-    border: 1px solid lightslategray;
+    border: 1px solid white;
     transition: 1s box-shadow, 1s border-radius;
 }
 
 .herobox img:hover {
     border-radius: 5px;
-    box-shadow: 0px 0px 5px lightslategray;
+    box-shadow: 0px 0px 5px white;
 }
 
 #herobox-img-overlay {
@@ -89,6 +89,7 @@ main {
 .herobox-f2 {
     flex: 2;
     padding: 50px;
+    padding-left: 0;
 }
 
 .herobox-f2 h1 {
@@ -152,6 +153,11 @@ main {
     justify-content: center;
     cursor: pointer;
     box-sizing: border-box;
+    transition: 1s padding;
+}
+
+.card1:hover, .card2:hover, .card3:hover {
+    padding: 30px;
 }
 
 footer {
@@ -175,4 +181,20 @@ p {
     font-family: 'Roboto Flex', sans-serif;
     margin-bottom: 1.5625rem;
     line-height: 1.6rem;
+}
+
+button {
+    padding: 10px 20px;
+    color: lightcoral;
+    border: 1px solid white;
+    box-shadow: 0px 1px 2.5px white;
+    background-color: white;
+    transition: 1s background-color;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    color: white;
+    background-color: lightcoral;
 }
