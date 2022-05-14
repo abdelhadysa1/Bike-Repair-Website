@@ -52,6 +52,36 @@ main {
 
 .herobox {
     flex: 1;
+    position: relative;
+}
+
+.herobox img {
+    border: 1px solid lightslategray;
+    transition: 1s box-shadow, 1s border-radius;
+}
+
+.herobox img:hover {
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px lightslategray;
+}
+
+#herobox-img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 98.89%;
+    background-color: rgba(0, 0, 0, 0.445);
+    z-index: 1;
+}
+
+#herobox-img-text {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
 }
 
 .herobox-f2 {
