@@ -60,27 +60,33 @@ main {
 }
 
 .cards {
-    background-color: lightslategray;
-    min-height: 40vh;
+    /* background-color: lightslategray; */
+    min-height: 30vh;
     display: flex;
     justify-content: space-between;
 }
 
 .card1 {
-    background-color: lightgreen;
-    min-height: 40vh;
+    /* background-color: lightgreen; */
+    background: url('./img/image-background-card1.jpg') no-repeat;
+    background-size: cover;
+    min-height: 30vh;
     flex: 1;
 }
 
 .card2 {
-    background-color: green;
-    min-height: 40vh;
+    /* background-color: green; */
+    background: url('./img/image-background-card2.jpg') no-repeat;
+    background-size: cover;
+    min-height: 30vh;
     flex: 1;
 }
 
 .card3 {
-    background-color: darkgreen;
-    min-height: 40vh;
+    /* background-color: darkgreen; */
+    background: url('./img/image-background-card3.jpg') no-repeat;
+    background-size: cover;
+    min-height: 30vh;
     flex: 1;
 }
 
