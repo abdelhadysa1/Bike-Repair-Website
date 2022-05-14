@@ -91,12 +91,35 @@ main {
     padding: 50px;
 }
 
+.herobox-f2 h1 {
+    font-size: 2.8rem;
+    font-family: 'Oswald', sans-serif;
+}
+
 .cards {
     /* background-color: lightslategray; */
     min-height: 30vh;
     display: flex;
     justify-content: space-between;
     text-align: center;
+}
+
+.cards h2 {
+    font-size: 1.8rem;
+}
+
+.cards i {
+    margin-bottom: 15px;
+}
+
+.cards p {
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+.cards a {
+    text-decoration: none;
+    color: white;
 }
 
 .card1 {
@@ -162,22 +185,4 @@ p {
     font-family: 'Roboto Flex', sans-serif;
     margin-bottom: 1.5625rem;
     line-height: 1.6rem;
-}
-
-.herobox-f2 h1 {
-    font-size: 2.8rem;
-    font-family: 'Oswald', sans-serif;
-}
-
-.cards h2 {
-    font-size: 1.8rem;
-}
-
-.cards i {
-    margin-bottom: 15px;
-}
-
-.cards p {
-    font-size: 1rem;
-    line-height: 1rem;
 }
