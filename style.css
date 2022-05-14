@@ -127,14 +127,6 @@ main {
     background: url('./img/image-background-card1.jpg') no-repeat;
     background-size: cover;
     background-position: bottom;
-    min-height: 30vh;
-    flex: 1;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    cursor: pointer;
-    box-sizing: border-box;
 }
 
 .card2 {
@@ -142,14 +134,6 @@ main {
     background: url('./img/image-background-card2.jpg') no-repeat;
     background-size: cover;
     background-position: bottom;    
-    min-height: 30vh;
-    flex: 1;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    cursor: pointer;
-    box-sizing: border-box;
 }
 
 .card3 {
@@ -157,6 +141,9 @@ main {
     background: url('./img/image-background-card3.jpg') no-repeat;
     background-size: cover;
     background-position: bottom;    
+}
+
+.card1, .card2, .card3 {
     min-height: 30vh;
     flex: 1;
     padding: 20px;
