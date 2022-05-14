@@ -134,6 +134,7 @@ main {
     flex-direction: column;
     justify-content: center;
     cursor: pointer;
+    box-sizing: border-box;
 }
 
 .card2 {
@@ -148,6 +149,7 @@ main {
     flex-direction: column;
     justify-content: center;
     cursor: pointer;
+    box-sizing: border-box;
 }
 
 .card3 {
@@ -162,6 +164,7 @@ main {
     flex-direction: column;
     justify-content: center;
     cursor: pointer;
+    box-sizing: border-box;
 }
 
 footer {
