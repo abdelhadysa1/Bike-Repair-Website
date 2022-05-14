@@ -94,6 +94,7 @@ main {
     min-height: 30vh;
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
 
 .card1 {
@@ -103,6 +104,7 @@ main {
     background-position: bottom;
     min-height: 30vh;
     flex: 1;
+    padding: 20px;
 }
 
 .card2 {
@@ -112,6 +114,7 @@ main {
     background-position: bottom;    
     min-height: 30vh;
     flex: 1;
+    padding: 20px;
 }
 
 .card3 {
@@ -121,6 +124,7 @@ main {
     background-position: bottom;    
     min-height: 30vh;
     flex: 1;
+    padding: 20px;
 }
 
 footer {
@@ -129,9 +133,21 @@ footer {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 3.75rem;
     font-family: 'Tangerine', serif;
     margin-bottom: 1.5625rem;
+}
+
+h2 {
+    font-size: 2.75rem;
+    font-family: 'Tangerine', serif;
+    margin-bottom: 0.5625rem;
+}
+
+p {
+    font-family: 'Roboto Flex', sans-serif;
+    margin-bottom: 1.5625rem;
+    line-height: 1.6rem;
 }
 
 .herobox-f2 h1 {
@@ -139,8 +155,10 @@ h1 {
     font-family: 'Oswald', sans-serif;
 }
 
-p {
-    font-family: 'Roboto Flex', sans-serif;
-    margin-bottom: 1.5625rem;
-    line-height: 1.6rem;
+.cards h2 {
+    font-size: 1.8rem;
+}
+
+.cards p {
+    font-size: 1rem;
 }
