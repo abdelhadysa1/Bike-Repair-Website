@@ -4,10 +4,10 @@ html {
 
 body {
     background: rgb(252,94,85);
-    background: linear-gradient(45deg, rgba(252,94,85,1) 25%, rgba(250,64,131,1) 85%);
+    background: linear-gradient(90deg, rgba(252,94,85,1) 25%, rgba(250,64,131,1) 85%);
     background-size: cover;
     background-repeat: no-repeat;
-    font-size: 18px;
+    font-size: 1.2rem;
     color: white;
 }
 
@@ -56,7 +56,7 @@ main {
 
 .herobox-f2 {
     flex: 2;
-    padding: 25px;
+    padding: 50px;
 }
 
 .cards {
@@ -92,19 +92,16 @@ footer {
 h1 {
     font-size: 60px;
     font-family: 'Tangerine', serif;
-    margin-bottom: 25px;
+    margin-bottom: 1.5625rem;
 }
 
 .herobox-f2 h1 {
-    font-size: 60px;
-    font-weight: bold;
-    background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(200, 200, 200));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-size: 2.8rem;
+    font-family: 'Oswald', sans-serif;
 }
 
 p {
     font-family: 'Roboto Flex', sans-serif;
-    margin-bottom: 25px;
+    margin-bottom: 1.5625rem;
+    line-height: 1.6rem;
 }
