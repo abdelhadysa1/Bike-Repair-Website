@@ -105,6 +105,9 @@ main {
     min-height: 30vh;
     flex: 1;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .card2 {
@@ -115,6 +118,9 @@ main {
     min-height: 30vh;
     flex: 1;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .card3 {
@@ -125,6 +131,9 @@ main {
     min-height: 30vh;
     flex: 1;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 footer {
@@ -157,6 +166,10 @@ p {
 
 .cards h2 {
     font-size: 1.8rem;
+}
+
+.cards i {
+    margin-bottom: 15px;
 }
 
 .cards p {
