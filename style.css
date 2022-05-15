@@ -206,15 +206,15 @@ button:hover {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     min-height: 40vh;
     position: relative;
+    margin-bottom: 20px;
 }
 
 .testimonial {
     box-sizing: border-box;
     padding: 25px 15px;
-    margin: 20px 20px;
     border: 1px solid white;
     /* min-height: 20vh; */
     width: 46%;
@@ -223,6 +223,7 @@ button:hover {
     flex-direction: column;
     transition: 1s background-color;
     cursor: pointer;
+    margin: 20px;
 }
 
 .testimonial p:first-child {
