@@ -201,3 +201,48 @@ button:hover {
     color: white;
     background-color: lightcoral;
 }
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    min-height: 40vh;
+    position: relative;
+}
+
+.testimonial {
+    box-sizing: border-box;
+    padding: 25px 15px;
+    margin: 20px 20px;
+    border: 1px solid white;
+    /* min-height: 20vh; */
+    width: 46%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: 1s background-color;
+    cursor: pointer;
+}
+
+.testimonial p:first-child {
+    text-align: left;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    line-height: 1.2rem;
+    width: 100%;
+}
+
+.testimonial p:last-child {
+    text-align: right;
+    font-style: italic;
+    color: rgb(231, 231, 231);
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+    width: 100%;
+}
+
+.testimonial:hover {
+    background-color: lightcoral;
+}
