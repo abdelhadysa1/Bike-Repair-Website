@@ -27,11 +27,16 @@ header {
 }
 
 .logo {
-    flex: 80%;
+    flex: 2;
 }
 
 nav {
-    flex: 20%;
+    flex: 1;
+}
+
+nav button {
+    color: white;
+    background-color: transparent;
 }
 
 nav li {
@@ -58,7 +63,7 @@ main {
 }
 
 .herobox img {
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.651);
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.651);
 }
 
 #herobox-img-overlay {
@@ -148,13 +153,13 @@ main {
     cursor: pointer;
     box-sizing: border-box;
     transition: 0.2s padding, 1s margin;
-    margin-bottom: 20px;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.651);
+    margin-bottom: 15px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.651);
 }
 
 .card1:hover, .card2:hover, .card3:hover {
     padding: 10px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 footer {
@@ -184,7 +189,7 @@ button {
     padding: 10px 20px;
     color: lightcoral;
     border: 1px solid white;
-    box-shadow: 0px 1px 2.5px white;
+    box-shadow: 0px 1px 4px rgba(255, 255, 255, 0.651);
     background-color: white;
     transition: 1s background-color;
     font-size: 1rem;
