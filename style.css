@@ -202,6 +202,11 @@ button:hover {
     background-color: lightcoral;
 }
 
+button a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .testimonials {
     display: flex;
     flex-wrap: wrap;
