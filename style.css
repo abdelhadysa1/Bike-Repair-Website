@@ -38,6 +38,11 @@ nav {
 nav button {
     color: white;
     background-color: transparent;
+    position: relative;
+}
+
+nav button:hover div.dropdown-menu {
+    display: block;
 }
 
 nav li {
@@ -251,4 +256,33 @@ button a {
 
 .testimonial:hover {
     background-color: lightcoral;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    z-index: 2;
+    display: none;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 10px;
+}
+
+.dropdown-item {
+    background-color: white;
+    color: lightcoral;
+    padding: 5px 35px;
+    transition: 1s background-color, 0.5s color;
+}
+
+.dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.603);
+    color: white;
+    text-shadow: 1px 0px 1px lightcoral, -1px 0px 1px lightcoral, 0px 1px 1px lightcoral, 0px -1px 1px lightcoral;
+}
+
+.dropdown-item a {
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
 }
