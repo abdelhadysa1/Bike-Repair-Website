@@ -169,8 +169,15 @@ main {
 }
 
 footer {
-    background-color: slategray;
+    /* background-color: slategray; */
     min-height: 10vh;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.788);
+    text-align: center;
+}
+
+footer p {
+    font-size: inherit;
 }
 
 h1 {
