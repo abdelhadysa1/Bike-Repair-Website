@@ -1,12 +1,15 @@
 html {
-    min-height: 100vh;
-}
-
-body {
     background: rgb(252,94,85);
     background: linear-gradient(90deg, rgba(252,94,85,1) 25%, rgba(250,64,131,1) 85%);
     background-size: cover;
     background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+body {
+    background: url('./img/image-lion-background.png') no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
     font-size: 1.2rem;
     color: white;
 }
