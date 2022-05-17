@@ -1,3 +1,7 @@
+:root {
+    accent-color: lightcoral;
+}
+
 html {
     background: rgb(252,94,85);
     background: linear-gradient(90deg, rgba(252,94,85,1) 25%, rgba(250,64,131,1) 85%);
@@ -295,4 +299,50 @@ button a {
     text-decoration: none;
     color: inherit;
     width: 100%;
+}
+
+/* Contact page custom content */
+
+.main-contact {
+    margin-bottom: 80px;
+    padding: 110px 30px;
+    border-bottom: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid white;
+}
+
+.form-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 0px;
+    flex-wrap: wrap;
+}
+
+input[type=text], textarea {
+    padding: 10px 0px 10px 10px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    background-color: rgb(78, 78, 78);
+}
+
+textarea {
+    padding: 10px;
+}
+
+input[type=text]::placeholder, textarea::placeholder {
+    color: white;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=button] {
+    color: white;
+    background-color: rgb(78, 78, 78);
+    font-size: 1rem;
+    line-height: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 5px;
+    border: 1px solid white;
 }
