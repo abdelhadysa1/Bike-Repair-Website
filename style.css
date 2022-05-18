@@ -305,8 +305,7 @@ button a {
 
 .main-contact {
     margin-bottom: 60px;
-    padding: 40px 30px;
-    padding-top: 20px;
+    padding: 15px 30px;
     border-bottom: 1px solid white;
     background-color: rgba(0, 0, 0, 0.1);
     border: 1px solid white;
@@ -316,12 +315,10 @@ button a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 20px 0px;
-    padding-bottom: 0;
     flex-wrap: wrap;
 }
 
-input[type=text], textarea {
+input[type=text], textarea, select {
     padding: 10px 0px 10px 10px;
     border: 1px solid white;
     margin-bottom: 10px;
@@ -333,7 +330,7 @@ textarea {
     resize: vertical;
 }
 
-input[type=text]::placeholder, textarea::placeholder {
+input[type=text]::placeholder, textarea::placeholder, select {
     color: white;
     font-size: 0.8rem;
     line-height: 0.8rem;
