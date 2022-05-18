@@ -370,7 +370,7 @@ label {
     }
     .hero {
         display: block;
-        padding: 0px 15px;
+        padding: 0;
         width: 100%;
         box-sizing: border-box;
         text-align: center;
@@ -389,13 +389,22 @@ label {
     }
     .testimonial {
         width: 100%;
+        margin: 12px;
     }
     .cards {
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
     }
     textarea {
         max-width: 100%;
+        box-sizing: border-box;
+    }
+    .main-contact {
+        border: none;
+        background-color: transparent;
+    }
+    p {
+        line-height: 1.3rem;
     }
 }
 
