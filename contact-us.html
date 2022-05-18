@@ -60,12 +60,24 @@
             <h1>Contact us</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi aperiam illo atque aliquid laudantium voluptates.</p>
             <form action="mail.php" method="post" class="form-contact">
-                <label for="name">Your name</label>
-                <input type="text" name="visitor_name" id="name" placeholder="i.e. Abdelhady Salah">
-                <label for="email">Your email</label>
-                <input type="text" name="visitor_email" id="email" placeholder="i.e. nobody@example.com">
-                <label for="message">Your message</label>
-                <textarea name="visitor_message" id="message" placeholder="Write your message here" cols="75" rows="15"></textarea>
+                <label for="formName">Your name</label>
+                <input type="text" name="visitor_name" id="formName" placeholder="i.e. Abdelhady Salah">
+                <label for="formEmail">Your email</label>
+                <input type="text" name="visitor_email" id="formEmail" placeholder="i.e. nobody@example.com">
+                <label for="formMessage">Your message</label>
+                <textarea name="visitor_message" id="formMessage" placeholder="Write your message here" cols="75" rows="15"></textarea>
+                <div style="margin-bottom: 10px;">
+                    <input type="checkbox" name="bedtime_story" id="formBedtimeCheck" value="tell_them" checked>
+                    <label for="formBedtimeCheck">Tell me a bedtime story</label>
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <p style="margin-bottom: 10px;">How can we contact you?</p>
+                    <input type="radio" name="contact_method" id="formContactPhone" value="phone">
+                    <label for="formContactPhone">By phone</label>
+                    <input type="radio" name="contact_method" id="formContactEmail" value="email" checked>
+                    <label for="formContactEmail">By email</label>
+                </div>
+                <br>
                 <input type="submit" value="Submit">
             </form>
         </main>
