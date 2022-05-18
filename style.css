@@ -394,6 +394,9 @@ label {
         margin-left: 20px;
         margin-right: 20px;
     }
+    textarea {
+        max-width: 100%;
+    }
 }
 
 @media screen and (max-width: 425px) {
